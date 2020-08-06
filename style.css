@@ -129,7 +129,7 @@ body {
   height: 15px; 
   width: 15px;
   border-radius: 20px;
-  background-color: var(--Pale-Blue);
+  background-color: #ffffff;
   margin: 2px;
   /* border: 2px solid green; */
 }
