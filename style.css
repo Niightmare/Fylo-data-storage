@@ -78,6 +78,11 @@ body {
   /* border: 1px solid lawngreen; */
 }
 
+.icons:hover{
+  cursor: pointer;
+
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -106,7 +111,27 @@ body {
   height: 20px;
   background-color: var(--Very-Dark-Blue);
   border-radius: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.storage-used{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: inherit;
+  height: inherit;
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width: calc((815/1000)*100%);
+  /* border: 2px solid red; */
+}
+
+.indicator{
+  height: 15px; 
+  width: 15px;
+  border-radius: 20px;
+  background-color: var(--Pale-Blue);
+  margin: 2px;
+  /* border: 2px solid green; */
 }
 
 .data-limits {
