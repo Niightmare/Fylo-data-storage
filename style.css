@@ -1,0 +1,131 @@
+:root {
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  margin: 0;
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Pale-Blue);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  background-image: url("images/bg-desktop.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.main {
+  display: inherit;
+  flex-direction: column;
+  /* border: 2px dotted lawngreen; */
+}
+
+.wrapper {
+  display: flex;
+  min-width: 900px;
+  /* border: 1px solid red; */
+}
+
+.header-wrapper {
+  flex: 1 1 auto;
+  border-radius: 10px 80px 10px 10px;
+  padding: 30px 120px 30px 30px;
+  margin: 10px;
+  background-color: var(--Dark-Blue);
+  /* border: 2px dotted orange; */
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 13vw;
+  /* border: 1px solid fuchsia; */
+}
+
+.header > * {
+  flex: 1 1 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 0 0;
+  /* border: 1px solid cyan; */
+}
+
+.icons {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 2.5vw;
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Blue);
+  /* border: 1px solid lawngreen; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: var(--Dark-Blue);
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+  /* border: 1px solid orange; */
+}
+
+.message {
+  width: inherit;
+  height: auto;
+  /* border: 1px solid lightseagreen; */
+}
+
+.message span {
+  color: var(--Pale-Blue);
+  font-weight: 700;
+}
+
+.storage-bar {
+  display: block;
+  margin-top: 15px;
+  height: 20px;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 20px;
+  border: 1px solid red;
+}
+
+.data-limits {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-weight: 700;
+  /* border: 1px solid limegreen; */
+}
+
+/* .min-storage,
+.max-storage {
+  border: 1px solid yellow;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
